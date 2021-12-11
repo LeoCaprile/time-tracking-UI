@@ -1,0 +1,85 @@
+.card__tracker__container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.card__tracker__icon {
+	border-radius: 1rem;
+	padding: 2rem;
+	height: 5px;
+	overflow: hidden;
+}
+
+.card__tracker__icon img {
+	height: 70px;
+	position: relative;
+	left: 50%;
+	top: -40px;
+}
+
+.card__tracker__content {
+	padding: 2rem;
+	background-color: var(--Darkblue);
+	border-radius: 1rem;
+	transition: all .2s ease-in-out;
+	margin-top: -20px;
+	z-index: 2;
+}
+.card__tracker__content:hover {
+	cursor: pointer;
+	background-color: hsl(235, 46%, 35%);
+}
+.card__tracker__content h1 {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+.card__tracker__content span {
+	font-size: 11px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.tracker__content__title {
+	display: flex;
+	align-items: center;
+	height: 5px;
+	color: #fff;
+}
+
+.tracker__content__title img {
+	margin-left: auto;
+	transition: all .2s ease-in-out;
+}
+.tracker__content__title img:hover {
+	margin-left: auto;
+	filter: brightness(150%);
+
+	cursor: pointer;
+}
+
+.card__header--orange {
+	background-color: var(--Lightorange);
+}
+
+.card__header--blue {
+	background-color: var(--Softblue);
+}
+
+.card__header--red {
+	background-color: var(--Lightred);
+}
+
+.card__header--green {
+	background-color: var(--Limegreen);
+}
+
+.card__header--violet {
+	background-color: var(--Violet);
+}
+
+.card__header--yellow {
+	background-color: var(--Softorange);
+}

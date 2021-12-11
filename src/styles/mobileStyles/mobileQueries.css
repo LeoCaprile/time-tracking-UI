@@ -1,0 +1,21 @@
+@media (max-width: 375px) {
+	.content {
+		display: flex !important;
+		flex-direction: column;
+		align-items: center;
+		justify-items: flex-start;
+		height: auto !important;
+	}
+
+	.selection__card {
+		flex-direction: row !important;
+		justify-content: center;
+	}
+
+	.profile__card {
+		display: grid !important;
+		grid-template-columns: repeat(2, auto);
+		align-items: center;
+		gap: 10px;
+	}
+}
